@@ -7,8 +7,9 @@ def main():
     load_dotenv()
 
     st.set_page_config(page_title="Invoice Extraction Bot")
-    st.title("Invoice Extraction Bot...💁 ")
-    st.subheader("I can help you in extracting invoice data")
+    st.title("Welcome!!...💁 ")
+    # st.subheader("I can help you in extracting invoice data")
+    st.subheader("Invoice Extraction Bot")
 
 
     # Upload the Invoices (pdf files)
@@ -29,7 +30,8 @@ def main():
                 "text/csv",
                 key="download-tools-csv",
             )
-        st.success("Hope I was able to save your time❤️")
+        # st.success("Hope I was able to save your time❤️")
+        st.success("Successfully!! Extracted data. Please check final results.")
 
 
 #Invoking main function
