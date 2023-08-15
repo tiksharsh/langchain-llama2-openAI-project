@@ -1,0 +1,16 @@
+langchain
+pypdf
+unstructured
+sentence_transformers
+pinecone-client
+llama-cpp-python
+huggingface_hub
+# faiss
+faiss-cpu
+# faiss-gpu
+llama-cpp-python
+pdfminer.six
+kor
+python-dotenv
+streamlit
+replicate

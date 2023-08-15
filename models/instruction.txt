@@ -1,0 +1,11 @@
+Download the Llama 2 Model:
+
+llama-2-7b-chat.ggmlv3.q4_0.bin
+
+
+From the following link:
+
+https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/tree/main
+
+model_name_or_path = "TheBloke/Llama-2-13B-chat-GGML"
+model_basename = "llama-2-13b-chat.ggmlv3.q5_1.bin" # the model is in bin format
